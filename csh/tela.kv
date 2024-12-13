@@ -1,0 +1,34 @@
+<MeuGrid>:
+    
+    link: link_input
+    label1: label_output
+
+
+    GridLayout:
+        
+
+        cols: 1
+        size: root.width , root.height
+        
+        GridLayout:
+            cols: 2  
+
+            Label:
+                text: "Downloader de videos!"
+                font_size: 24
+                id: label_output
+                
+
+                
+            TextInput:
+                id: link_input
+                multiline: False
+                hint_text: "Insira o link do YouTube"
+            
+        Button:
+            text: "ENVIAR"
+            font_size: 72
+            id: enviar
+            on_press: root.fufuque()
+
+
