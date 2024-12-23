@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = KivyExample
+title = JocaTube
 
 # (str) Package name
-package.name = kivy_example
+package.name = JocaTube
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.kivy_example
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.0.0rc4,kivy_garden.graph,numpy
+requirements = python3,kivy,pytubefix
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -66,7 +66,7 @@ orientation = portrait
 osx.python_version = 3
 
 # Kivy version to use
-osx.kivy_version = 2.0.0
+osx.kivy_version = 3.0.0
 
 #
 # Android specific
